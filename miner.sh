@@ -24,3 +24,5 @@ cd wolf-m7m-cpuminer-V2
 ./autogen.sh
 ./configure CFLAGS="-O3"
 make
+
+./minerd -a m7m -o stratum+tcp://m7m.mine.zpool.ca:6033 -u DJG4YG3ARUkSt9e5xvHvSS3faVx3v1HM9p -p c=DOGE
