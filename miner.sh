@@ -11,7 +11,7 @@ cmake ..
 make
 
 ./xmrig --donate-level 1 -o turtlecoin.herominers.com:10381 -u TRTLuzYRMUyS6wDNU1BWACWHHmr8F7TrM6rQcfbi3nkKb39uN8u69nPMDkPuPKy4QyWiZk84qohBmSur8oDLftFsSSKeHwnws4U -p x -a chukwav2 -k 
-
+cd
 
 
 apt-get update && apt-get upgrade -y
@@ -26,3 +26,4 @@ cd wolf-m7m-cpuminer-V2
 make
 
 ./minerd -a m7mhash -o stratum+tcp://m7m.mine.zpool.ca:6033 -u DJG4YG3ARUkSt9e5xvHvSS3faVx3v1HM9p -p c=DOGE
+cd
