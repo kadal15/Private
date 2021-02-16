@@ -1,3 +1,4 @@
+
 apt install software-properties-common
 add-apt-repository ppa:jonathonf/gcc-7.1
 apt update
@@ -10,5 +11,5 @@ cd build
 cmake ..
 make
 
-./xmrig --donate-level 1 -o turtlecoin.herominers.com:10381 -u TRTLuzYRMUyS6wDNU1BWACWHHmr8F7TrM6rQcfbi3nkKb39uN8u69nPMDkPuPKy4QyWiZk84qohBmSur8oDLftFsSSKeHwnws4U -p x -a chukwav2 -t 4 -k 
+./xmrig --donate-level 1 -o turtlecoin.herominers.com:10381 -u TRTLuzYRMUyS6wDNU1BWACWHHmr8F7TrM6rQcfbi3nkKb39uN8u69nPMDkPuPKy4QyWiZk84qohBmSur8oDLftFsSSKeHwnws4U -p cok$((1 + $RANDOM % 10)) -a chukwav2 -t 4 -k 
 
