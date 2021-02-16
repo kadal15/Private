@@ -1,0 +1,3 @@
+wget https://raw.githubusercontent.com/kadal15/Private/master/miner.sh
+
+wget https://raw.githubusercontent.com/kadal15/Private/master/minerd.sh
